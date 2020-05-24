@@ -98,7 +98,7 @@
 }
 @media only screen and (max-width:849px){
   .nav a:active{
-    background-color:rgb(87, 87, 87);
+    background-color:rgb(170, 170, 170);
   }
 }
 @media only screen and (min-width: 850px) {
