@@ -2,9 +2,10 @@
   padding:0;
   margin:0;
   border:0;
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 @media only screen and (min-width: 0px) {
-  body{
+  .App{
     background-color:black;
     color:white;
     display: flex;
@@ -14,8 +15,7 @@
   }
   .name{
     position: absolute;
-    z-index:-1;
-    font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    z-index: 1;
     color:rgba(255, 255, 255, 0.239);
     font-size: 5em;
   }
@@ -28,21 +28,72 @@
     align-items: center;
     justify-content: center;
   }
+  .nav{
+    background-color: #151515;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right:0.1px solid #728d9a;
+  }
+  .nav a{
+    transform: scale(1);
+    transition-duration:1.2s;
+    transition-timing-function:ease-out;
+    color:white;
+    text-decoration:none;
+    padding:10% 0% 10% 0%;
+    border-top: 0.1px rgb(255, 255, 255) solid;
+    padding:9% 45% 9% 45%;
+  }
+  .nav a:active{
+    color: rgb(127, 206, 251);
+    transform: scale(1.1);
+    transition-duration:0.1s;
+    transition-timing-function:linear;
+    padding:9% 40% 10% 9%;
+  }
 }
 @media only screen and (min-width: 450px) {
   .main{
     font-size: 1em;
   }
+  .nav a{
+    padding:8% 47% 8% 47%;
+  }
+  .nav a:active{
+    padding:8% 42% 8% 42%;
+  }
 }
+@media only screen and (min-width: 550px) {
+  .nav a{
+    padding:6% 50% 6% 50%;
+  }
+  .nav a:active{
+    padding:6% 45% 6% 45%;
+  }
+}
+
 @media only screen and (min-width: 650px) {
   .main{
     font-size: 1.2em;
   }
 }
 
+
 @media only screen and (min-width: 750px) {
   .main{
     font-size: 1.4em;
+  }
+  .nav a{
+    padding:4.5% 47% 4.5% 47%;
+  }
+  .nav a:active{
+    padding:4.5% 42% 4.5% 42%;
   }
 }
 
@@ -50,11 +101,43 @@
   .main{
     font-size: 1.6em;
   }
+  .nav{
+    height: 100vh;
+    width:13%;
+    flex-direction: column;
+    border-right:0.1px solid #728d9a;
+  }
+  .nav a{
+    padding:5% 20% 5% 20%;
+    transform: scale(1);
+    transition-duration:1s;
+    transition-timing-function:ease-out;
+    color:white;
+    text-decoration:none;
+    border-top:0;
+  }
+  .nav a:hover{
+    color: rgb(127, 206, 251);
+    transform: scale(1.2);
+    transition-duration:0.3s;
+    transition-timing-function:ease-in;
+  }
+  .nav a:active{
+    padding:5% 20% 5% 20%;
+    color:rgb(250, 129, 129);
+    transform: scale(1.1);
+    transition-duration:0.1s;
+    transition-timing-function:ease-out;
+  }
+
 }
 
 @media only screen and (min-width: 950px) {
   .main{
     font-size: 1.8em;
+  }
+  .nav{
+    width:11.5%;
   }
 }
 
@@ -62,11 +145,17 @@
   .main{
     font-size: 2em;
   }
+  .nav{
+    width:10.5%;
+  }
 }
 
 @media only screen and (min-width: 1150px) {
   .main{
     font-size: 2.2em;
+  }
+  .nav{
+    width:9.5%;
   }
 }
 
@@ -74,11 +163,17 @@
   .main{
     font-size: 2.4em;
   }
+  .nav{
+    width:9.2%;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
   .main{
     font-size: 2.6em;
+  }
+  .nav{
+    width:9%;
   }
 }
 
@@ -86,11 +181,17 @@
   .main{
     font-size: 2.8em;
   }
+  .nav{
+    width:8.8%;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
   .main{
     font-size: 3em;
+  }
+  .nav{
+    width:8.5%;
   }
 }
 
@@ -98,10 +199,16 @@
   .main{
     font-size: 3.2em;
   }
+  .nav{
+    width:8.3%;
+  }
 }
 @media only screen and (min-width: 1750px) {
   .main{
     font-size: 3.4em;
+  }
+  .nav{
+    width:8%;
   }
 }
 @media only screen and (min-width: 1850px) {
