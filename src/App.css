@@ -55,7 +55,7 @@
     transform: scale(1.1);
     transition-duration:0.1s;
     transition-timing-function:linear;
-    padding:9% 40% 10% 9%;
+    padding:9% 40% 9% 40%;
   }
 }
 @media only screen and (min-width: 450px) {
@@ -96,7 +96,11 @@
     padding:4.5% 42% 4.5% 42%;
   }
 }
-
+@media only screen and (max-width:849px){
+  .nav a:active{
+    background-color:rgb(87, 87, 87);
+  }
+}
 @media only screen and (min-width: 850px) {
   .main{
     font-size: 1.6em;
@@ -200,7 +204,7 @@
     font-size: 3.2em;
   }
   .nav{
-    width:8.3%;
+    width:8.2%;
   }
 }
 @media only screen and (min-width: 1750px) {
