@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+*{
+  padding:0;
+  margin:0;
+  border:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (min-width: 0px) {
+  body{
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .name{
+    position: absolute;
+    z-index:-1;
+    font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:rgba(255, 255, 255, 0.239);
+    font-size: 5em;
+  }
+  .main{
+    font-family: Georgia, serif;
+    letter-spacing: 0.2em;
+    color:white;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 450px) {
+  .main{
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .main{
+    font-size: 1.2em;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 750px) {
+  .main{
+    font-size: 1.4em;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 850px) {
+  .main{
+    font-size: 1.6em;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .main{
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .main{
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .main{
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .main{
+    font-size: 2.4em;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .main{
+    font-size: 2.6em;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .main{
+    font-size: 2.8em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .main{
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .main{
+    font-size: 3.2em;
+  }
+}
+@media only screen and (min-width: 1750px) {
+  .main{
+    font-size: 3.4em;
+  }
+}
+@media only screen and (min-width: 1850px) {
+  .main{
+    font-size: 3.6em;
+  }
+}
+@media only screen and (min-width: 1950px) {
+  .main{
+    font-size: 3.8em;
+  }
+}
+@media only screen and (min-width: 2050px) {
+  .main{
+    font-size: 4em;
+  }
+}
+@media only screen and (min-width: 2150px) {
+  .main{
+    font-size: 4.2em;
+  }
+}
+@media only screen and (min-width: 2250px) {
+  .main{
+    font-size: 4.4em;
   }
 }
