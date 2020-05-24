@@ -58,62 +58,30 @@
     padding:9% 40% 9% 40%;
   }
   #share{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
     position:fixed;
     bottom:0;
-    right:0;
-    width: 20%;
-    margin:5% 3% 3% 5%;
+    width:100%;
+    margin:0;
+    border-radius: 0;
   }
-  .hover {
+  .hover{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 75px;
-    background-color: #4DB6AC;
+    background-color: #25292c;
     border-radius: 99px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     overflow: hidden;
   }
-  .hover:before, .hover:after {
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    transition: 0.25s linear;
-    z-index: 1;
-  }
-  .hover:before {
-    content: '';
-    left: 0;
-    justify-content: flex-end;
-    background-color: #4DB6AC;
-  }
-  .hover:after {
-    content: '';
-    right: 0;
-    justify-content: flex-start;
-    background-color: #44a69c;
-  }
   .hover:hover {
-    background-color: #46627f;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
-  .hover:hover span {
-    opacity: 0;
-    z-index: -3;
-  }
-  .hover:hover:before {
-    opacity: 0.5;
-    transform: translateY(-100%);
-  }
-  .hover:hover:after {
-    opacity: 0.5;
-    transform: translateY(100%);
   }
   .hover span {
     position: absolute;
@@ -144,16 +112,11 @@
     text-decoration: none;
     transition: 0.25s;
   }
-  .hover .social-link i {
-    text-shadow: 1px 1px rgba(70, 98, 127, 0.7);
-    transform: scale(1);
+  #share a:hover{
+    width:100%;
+    background-color:rgb(50, 53, 56)
   }
-  .hover .social-link:hover {
-    background-color: rgba(245, 245, 245, 0.1);
-  }
-  .hover .social-link:hover i {
-    animation: bounce 0.4s linear;
-  }
+  
   @keyframes bounce {
     40% {
       transform: scale(1.4);
@@ -243,6 +206,12 @@
   #sandwich{
     display:none;
   }
+  #share{
+    right:0;
+    height: 100vh;
+    width: 10%;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 950px) {
@@ -296,6 +265,9 @@
   }
   .nav{
     width:8.8%;
+  }
+  #share{
+    width:7%;
   }
 }
 

@@ -48,7 +48,7 @@ function App() {
           <Route  path="/projects" component={Projects}/>
         </Switch>
       </Router>
-       <div id ="share" className="hover"><span  className="fa">SHARE</span>
+       <div id ="share" className="hover">
         <a className="social-link" href="https://www.twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
         <a className="social-link" href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
         <a className="social-link" href="https://www.github.com/" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
