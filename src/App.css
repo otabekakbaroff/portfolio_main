@@ -97,6 +97,9 @@
   }
 }
 @media only screen and (max-width:849px){
+  .nav a:hover{
+    background-color: rgb(170, 170, 170);
+  }
   .nav a:active{
     background-color:rgb(170, 170, 170);
   }
