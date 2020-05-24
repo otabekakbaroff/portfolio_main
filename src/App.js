@@ -4,11 +4,25 @@ import Navbar from "./components/navbar"
 function App() {
   function sayHello(){
     let navbar=document.querySelector(".nav");
-    if(navbar.style.display=="flex"){
+    let sandwichX=document.querySelector("#layerTwo")
+    let layerOne=document.querySelector("#layerOne")
+    let layerThree=document.querySelector("#layerThree")
+    if(navbar.style.display==="flex"){
           navbar.style.display="none";
+          layerOne.style.transform="rotate(0deg)"
+          layerThree.style.transform="rotate(0deg)"
+          layerOne.style.position="relative";
+          layerThree.style.position="relative";
+          sandwichX.style.display="block"
     }else{
         navbar.style.display="flex";
-      }
+        sandwichX.style.display="none";
+        layerOne.style.position="absolute";
+        layerThree.style.position="absolute";
+        layerOne.style.transform="rotate(50deg)";
+        layerThree.style.transform="rotate(-50deg)";
+
+    }
     }
   return (
     <div className="App">

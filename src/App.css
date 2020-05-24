@@ -269,6 +269,10 @@
     background-color:white;
     margin:7% 5% 7% 5%
   }
+  /* #sandwich div:active{
+    transform: rotate(-20deg);
+    transition-duration:2s;
+  } */
   .nav{
     display:none;
   }
