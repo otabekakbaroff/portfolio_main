@@ -5,6 +5,11 @@ import Navbar from "./components/navbar"
 import About from './components/about'
 import Projects from './components/skillz'
 import Home from './components/home'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
+import {faInstagram} from "@fortawesome/free-brands-svg-icons"
+import {faTwitter} from "@fortawesome/free-brands-svg-icons"
+import {faGithub} from "@fortawesome/free-brands-svg-icons"
 function App() {
   function sayHello(){
     let navbar=document.querySelector(".nav");
@@ -43,6 +48,12 @@ function App() {
           <Route  path="/projects" component={Projects}/>
         </Switch>
       </Router>
+       <div id ="share" className="hover"><span  className="fa">SHARE</span>
+        <a className="social-link" href="https://www.twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+        <a className="social-link" href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
+        <a className="social-link" href="https://www.github.com/" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
+        <a className="social-link" href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+        </div> 
     </div>
   );
 }
