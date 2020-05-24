@@ -1,6 +1,10 @@
 import React from 'react';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import './App.css';
 import Navbar from "./components/navbar"
+import About from './components/about'
+import Projects from './components/skillz'
+import Home from './components/home'
 function App() {
   function sayHello(){
     let navbar=document.querySelector(".nav");
@@ -26,16 +30,19 @@ function App() {
     }
   return (
     <div className="App">
+      <Router>
       <Navbar/>
       <div id="sandwich" onClick={sayHello}>
-        <div id="layerOne"></div>
-        <div id="layerTwo"></div>
-        <div id="layerThree"></div>
-      </div>
-      <div className="main">
-        <h1 className="name">OTABEK</h1>
-        <p >Full-Stack Web Developer</p>
-      </div>
+                <div id="layerOne"></div>
+                <div id="layerTwo"></div>
+                <div id="layerThree"></div>
+            </div>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route  path="/about" component={About}/>
+          <Route  path="/projects" component={Projects}/>
+        </Switch>
+      </Router>
     </div>
   );
 }
