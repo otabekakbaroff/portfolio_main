@@ -6,7 +6,8 @@ import About from './components/about'
 import Projects from './components/skillz'
 import Home from './components/home'
 import Social_link from './components/social-link'
-import ContactThreatre from './components/ContactTheatre';
+import Contact from './components/contact'
+
 function App() {
   return (
     <div className="App">
@@ -15,10 +16,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route  path="/about" component={About}/>
+          <Route  path="/contact" component={Contact}/>
           <Route  path="/projects" component={Projects}/>
         </Switch>
       </Router>
-      <ContactThreatre/>
       <Social_link/>
     </div>
   );

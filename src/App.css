@@ -5,12 +5,18 @@
   font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 @media only screen and (min-width: 0px) {
+  body{
+    background-color: black;
+  }
   .App{
-    background-color:black;
+    /* background-color:black; */
     color:white;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .home{
+    display: flex;
     height: 100vh;
   }
   .name{
@@ -131,9 +137,10 @@
     }
   }
   .CT_button{
-    width:100%;
+    width:70%;
     top:77%;
-    position: absolute;
+    right:15%;
+    position: fixed;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -141,12 +148,13 @@
   }
   .CT_button button{
     color:#08fdd8;
+    text-decoration: none;
     background-color: black;
     border: solid 1px #089b85;
     margin: 0% 3% 0% 3%;
     border-radius: 2px;
     padding:3%;
-    width:35%;
+    width:45%;
   }
   .CT_button button:hover{
     background-color:#089b85;
@@ -163,9 +171,6 @@
   .nav a:active{
     padding:8% 42% 8% 42%;
   }
-  .CT_button{
-    width: 90%;
-  }
 }
 @media only screen and (min-width: 550px) {
   .nav a{
@@ -173,9 +178,6 @@
   }
   .nav a:active{
     padding:6% 45% 6% 45%;
-  }
-  .CT_button{
-    width: 85%;
   }
   .CT_button button{
     width:35%;
@@ -254,6 +256,9 @@
   .CT_button button{
     padding:2%;
     width:20%;
+  }
+  #share a:hover{
+    width:100%;
   }
 }
 

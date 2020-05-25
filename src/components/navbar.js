@@ -12,7 +12,6 @@ function Navbar(){
                 navbar.style.display="none";
                 layerOne.style.transform="rotate(0deg)"
                 layerThree.style.transform="rotate(0deg)"
-                
                 layerOne.style.position="relative";
                 layerThree.style.position="relative";
                 sandwichX.style.display="block"
@@ -31,7 +30,8 @@ function Navbar(){
             <div className="nav">
                     <Link to="/" onClick={sayHello}>Home</Link>
                     <Link to="/projects" onClick={sayHello}>MyWork</Link>
-                    <Link to="/about" onClick={sayHello}>About</Link>
+                    <Link to="/about" onClick={sayHello}>AboutMe</Link>
+                    <Link to="/contact" onClick={sayHello}>Contact</Link>
             </div>
             <div id="sandwich" onClick={sayHello}>
                 <div id="layerOne"></div>
