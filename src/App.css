@@ -133,7 +133,7 @@
   }
   .CT_button{
     width:100%;
-    top:65%;
+    top:77%;
     position: absolute;
     display:flex;
     justify-content: center;
@@ -147,7 +147,7 @@
     margin: 0% 3% 0% 3%;
     border-radius: 2px;
     padding:3%;
-    width:40%;
+    width:35%;
   }
   .CT_button button:hover{
     background-color:#089b85;
@@ -164,8 +164,8 @@
   .nav a:active{
     padding:8% 42% 8% 42%;
   }
-  .CT_button button{
-    margin-top:5%;
+  .CT_button{
+    width: 90%;
   }
 }
 @media only screen and (min-width: 550px) {
@@ -175,6 +175,9 @@
   .nav a:active{
     padding:6% 45% 6% 45%;
   }
+  .CT_button{
+    width: 85%;
+  }
   .CT_button button{
     width:35%;
   }
@@ -183,6 +186,9 @@
 @media only screen and (min-width: 650px) {
   .main{
     font-size: 1.2em;
+  }
+  .CT_button button{
+    width:30%;
   }
 }
 
@@ -198,7 +204,7 @@
     padding:4.5% 42% 4.5% 42%;
   }
   .CT_button button{
-    width:30%;
+    width:28%;
   }
 }
 
@@ -242,6 +248,9 @@
     height: 100vh;
     width: 10%;
     flex-direction: column;
+  }
+  .CT_button{
+    width:70%;
   }
   .CT_button button{
     padding:2%;
