@@ -20,6 +20,7 @@ function App() {
           navbar.style.display="none";
           layerOne.style.transform="rotate(0deg)"
           layerThree.style.transform="rotate(0deg)"
+          
           layerOne.style.position="relative";
           layerThree.style.position="relative";
           sandwichX.style.display="block"
@@ -48,6 +49,10 @@ function App() {
           <Route  path="/projects" component={Projects}/>
         </Switch>
       </Router>
+        <div className="CT_button">
+            <button>Contact Me</button>
+            <button>Theatre Mode</button>
+        </div>
        <div id ="share" className="hover">
         <a className="social-link" href="https://www.twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
         <a className="social-link" href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
