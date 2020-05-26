@@ -167,21 +167,19 @@
     justify-content: center;
     flex-direction: column;
   }
+
   .contact form{
     display: flex;
     flex-direction: column;
-    background-color: #ffffff23;
-    padding: 10%;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   .contact textarea{
-    resize: none;
-    height: 25vh;
-  }
+     resize: none; 
+  } 
   .contact input,textarea{
     color:rgb(255, 255, 255);
-    margin: 5%;
-    padding:5%;
+    margin: 1em;
+    padding:1em;
     border-radius: 15px;
     background-color: #ffffff23;
     outline: none;
@@ -193,14 +191,10 @@
     color:rgba(248, 248, 248, 0.712);
   }
   .contact input:hover{
-    border-bottom: solid rgb(72, 233, 211) 1px;
-    padding-top:4.9%;
-    padding-bottom: 4.9%;
+    background-color: rgba(95, 95, 95, 0.774);
   }
   .contact textarea:hover{
-    border-bottom: solid rgb(72, 233, 211) 1px;
-    padding-top:4.9%;
-    padding-bottom: 4.9%;
+    background-color: rgba(95, 95, 95, 0.753);
   }
 }
 @media only screen and (min-width: 450px) {
