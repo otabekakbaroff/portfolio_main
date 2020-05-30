@@ -475,6 +475,9 @@
   .nav{
     display:none;
   }
+  .main{
+    font-size: 1em;
+  }
 }
 
 
@@ -493,17 +496,18 @@
     border-right:0.1px solid #728d9a;
   }
   .nav a{
-    padding:5% 20% 5% 20%;
+    padding:5% 0% 5% 0%;
     transform: scale(1);
-    transition-duration:1s;
+    transition-duration:0.5s;
     transition-timing-function:ease-out;
     color:white;
     text-decoration:none;
     border-top:0;
+    font-size: 0.95em;
   }
   .nav a:hover{
     background-color: #151515;
-    padding:5% 20% 5% 20%;
+    padding:5% 0% 5% 0%;
     color:rgb(127, 206, 251);
     transform: scale(1.1);
     transition-duration:0.1s;
@@ -521,19 +525,107 @@
   .CT_button{
     width:70%;
   }
-  .CT_button button{
-    padding:2%;
-    width:20%;
-  }
   #share a:hover{
     width:100%;
   }
+  .main{
+    font-size: 0.9em;
+  }
+  .CT_button button{
+    padding:2%;
+    width:30%;
+  }
 }
 
+@media only screen and (max-height:650px) and (min-width:650px){
+  .main{
+    font-size: 1em;
+  }
+  .CT_button button{
+    width:29%;
+  }
+  .nav a{
+    font-size: 1em;
+  }
+}
+@media only screen and (max-height:650px) and (min-width:750px){
+  .main{
+    font-size: 1.1em;
+  }
+  .CT_button button{
+    width:28%;
+  }
+  .nav a{
+    font-size: 1.025em;
+  }
+}
+@media only screen and (max-height:650px) and (min-width:850px){
+  .main{
+    font-size: 1.2em;
+  }
+  .CT_button button{
+    width:27%;
+  }
+  .nav a{
+    font-size: 1.050em;
+  }
+}
 
+@media only screen and (max-height:650px) and (min-width:950px){
+  .main{
+    font-size: 1.3em;
+  }
+  .CT_button button{
+    width:26%;
+  }
+  .nav a{
+    font-size: 1.075em;
+  }
+}
 
-@media only screen and (max-height:650px) and (min-width:550px){
+@media only screen and (max-height:650px) and (min-width:1050px){
+  .main{
+    font-size: 1.4em;
+  }
   .CT_button button{
     width:25%;
   }
+  .nav a{
+    font-size: 1.1em;
+  }
 }
+@media only screen and (max-height:650px) and (min-width:1150px){
+  .main{
+    font-size: 1.5em;
+  }
+  .CT_button button{
+    width:24%;
+  }
+  .nav a{
+    font-size: 1.125em;
+  }
+}
+@media only screen and (max-height:650px) and (min-width:1250px){
+  .main{
+    font-size: 1.6em;
+  }
+  .CT_button button{
+    width:23%;
+  }
+  .nav a{
+    font-size: 1.150em;
+  }
+}
+@media only screen and (max-height:650px) and (min-width:1450px){
+  .main{
+    font-size: 1.7em;
+  }
+  .CT_button button{
+    width:22%;
+  }
+  .nav a{
+    font-size: 1.175em;
+  }
+}
+
+
