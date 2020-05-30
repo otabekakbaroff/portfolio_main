@@ -475,3 +475,61 @@
     display:none;
   }
 }
+
+
+
+/* MAX HEIGHT  */
+
+@media only screen and (max-height:650px) and (min-width:550px){
+  .main{
+    font-size: 1.6em;
+  }
+  .nav{
+    height: 100vh;
+    width:13%;
+    display: flex;
+    flex-direction: column;
+    border-right:0.1px solid #728d9a;
+  }
+  .nav a{
+    padding:5% 20% 5% 20%;
+    transform: scale(1);
+    transition-duration:1s;
+    transition-timing-function:ease-out;
+    color:white;
+    text-decoration:none;
+    border-top:0;
+  }
+  .nav a:hover{
+    color: rgb(127, 206, 251);
+    transform: scale(1.2);
+    transition-duration:0.3s;
+    transition-timing-function:ease-in;
+  }
+  .nav a:active{
+    padding:5% 20% 5% 20%;
+    color:rgb(250, 129, 129);
+    transform: scale(1.1);
+    transition-duration:0.1s;
+    transition-timing-function:ease-out;
+  }
+  #sandwich{
+    display:none;
+  }
+  #share{
+    right:0;
+    height: 100vh;
+    width: 10%;
+    flex-direction: column;
+  }
+  .CT_button{
+    width:70%;
+  }
+  .CT_button button{
+    padding:2%;
+    width:20%;
+  }
+  #share a:hover{
+    width:100%;
+  }
+}
