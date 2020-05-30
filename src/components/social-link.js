@@ -8,10 +8,10 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons"
 function Social_link(){
     return(
         <div id ="share" className="hover">
-          <a className="social-link" href="https://www.twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a className="social-link" href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
-          <a className="social-link" href="https://www.github.com/" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
-          <a className="social-link" href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a className="social-link" href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a className="social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
+          <a className="social-link" href="https://www.github.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+          <a className="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
        </div> 
     )
 }

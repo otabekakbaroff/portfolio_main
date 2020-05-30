@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 
 function Navbar(){
+    function windowCheck(){
+        if(window.matchMedia("(max-height:650px) and (min-width:550px)").matches || window.matchMedia("(min-width: 850px)")){
+            document.querySelector(".nav").style.display="flex"
+        }
+        sayHello();
+    }
+    window.onresize=windowCheck;
     function sayHello(){
         if(!(window.matchMedia("(max-height:650px) and (min-width:550px)").matches)){
             if(window.matchMedia("(max-width: 849px)").matches){
