@@ -9,7 +9,6 @@
     background-color: black;
   }
   .App{
-    /* background-color:black; */
     color:white;
     display: flex;
     align-items: center;
@@ -54,14 +53,14 @@
     text-decoration:none;
     padding:10% 0% 10% 0%;
     border-top: 0.1px rgb(255, 255, 255) solid;
-    padding:9% 45% 9% 45%;
+    padding:6.5% 45% 6.5% 45%;
   }
   .nav a:active{
     color: rgb(127, 206, 251);
     transform: scale(1.1);
     transition-duration:0.1s;
     transition-timing-function:linear;
-    padding:9% 40% 9% 40%;
+    padding:6.5% 40% 6.5% 40%;
   }
   #share{
     display:flex;
@@ -171,18 +170,19 @@
   .contact form{
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
   }
   .contact textarea{
-     resize: none; 
+    height: 20vh;
+    resize: none; 
   } 
   .contact input,textarea{
     color:rgb(255, 255, 255);
     margin: 1em;
     padding:1em;
-    border-radius: 15px;
-    background-color: #ffffff23;
+    border-radius: 5px;
+    background-color: black;
     outline: none;
+    border-bottom: 2px solid #4b4b4bfd;
   }
   .contact input::placeholder{
     color:rgba(248, 248, 248, 0.712);
@@ -190,11 +190,13 @@
   .contact textarea::placeholder{
     color:rgba(248, 248, 248, 0.712);
   }
-  .contact input:hover{
-    background-color: rgba(95, 95, 95, 0.774);
+  .contact input:focus{
+    border-bottom: 2px solid #04a4cc;
+    /* background-color: rgba(95, 95, 95, 0.157); */
   }
-  .contact textarea:hover{
-    background-color: rgba(95, 95, 95, 0.753);
+  .contact textarea:focus{
+    border-bottom: 2px solid #04a4cc;
+    /* background-color: rgba(95, 95, 95, 0.164); */
   }
 }
 @media only screen and (min-width: 450px) {
@@ -202,18 +204,18 @@
     font-size: 1em;
   }
   .nav a{
-    padding:8% 47% 8% 47%;
+    padding:5.5% 47% 5.5% 47%;
   }
   .nav a:active{
-    padding:8% 42% 8% 42%;
+    padding:5.5% 42% 5.5% 42%;
   }
 }
 @media only screen and (min-width: 550px) {
   .nav a{
-    padding:6% 50% 6% 50%;
+    padding:4.7% 50% 4.7% 50%;
   }
   .nav a:active{
-    padding:6% 45% 6% 45%;
+    padding:4.7% 45% 4.7% 45%;
   }
   .CT_button button{
     width:35%;
@@ -221,6 +223,12 @@
 }
 
 @media only screen and (min-width: 650px) {
+  .nav a{
+    padding: 4% 50% 4% 50%;
+  }
+  .nav a:active{
+    padding: 4% 45% 4% 45%;
+  }
   .main{
     font-size: 1.2em;
   }
@@ -235,10 +243,10 @@
     font-size: 1.4em;
   }
   .nav a{
-    padding:4.5% 47% 4.5% 47%;
+    padding:3.5% 47% 3.5% 47%;
   }
   .nav a:active{
-    padding:4.5% 42% 4.5% 42%;
+    padding:3.5% 42% 3.5% 42%;
   }
   .CT_button button{
     width:28%;

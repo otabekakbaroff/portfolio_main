@@ -11,7 +11,7 @@ function Contact(){
                 <input placeholder="Subject"/>
                 <textarea placeholder="Message"></textarea>
                 <div className="CT_button">
-                    <button >Send</button>
+                    <button>Send</button>
                 </div>
             </form>
         </div>
