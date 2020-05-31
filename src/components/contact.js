@@ -5,10 +5,10 @@ function Contact(){
         <div className="contact">
             <form>
             <h1>Get in touch</h1>
-            <h4>Feel free to leave a feedback/questions</h4>
-                <input placeholder="Name"/>
-                <input placeholder="Email"/>
-                <input placeholder="Subject"/>
+            <p>Feel free to leave a feedback/questions or Email me at Otabek.Akbaroff@gmail.com</p>
+                <input className="contactInput" placeholder="Name"/>
+                <input className="contactInput" placeholder="Email"/>
+                <input className="contactInput" placeholder="Subject"/>
                 <textarea placeholder="Message"></textarea>
                 <div className="contactSend">
                     <button>Send</button>
