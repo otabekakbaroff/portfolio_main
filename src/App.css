@@ -139,7 +139,7 @@
     width:70%;
     top:77%;
     right:15%;
-    position: fixed;
+    position: absolute;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -275,11 +275,12 @@
   }
   .nav a:hover{
     color: rgb(127, 206, 251);
+    padding:5% 19.5% 5% 19.5%;
     transform: scale(1.2);
     transition-duration:0.3s;
     transition-timing-function:ease-in;
   }
-  .nav a:hover{
+  .nav a:active{
     padding:5% 20% 5% 20%;
     color:rgb(250, 129, 129);
     transform: scale(1.1);
@@ -451,9 +452,6 @@
   .nav a:hover{
     background-color: rgb(170, 170, 170);
   }
-  .nav a:hover{
-    background-color:rgb(170, 170, 170);
-  }
   #sandwich{
     position: fixed;
     margin: 1.5%;
@@ -474,9 +472,6 @@
   }
   .nav{
     display:none;
-  }
-  .main{
-    font-size: 1em;
   }
 }
 
