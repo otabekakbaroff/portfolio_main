@@ -1,0 +1,574 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 81.25%;
+	font-family: arial, helvetica, sans-serif;
+	color: #000;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	background:url(/error_files/horizbar_short_bl.gif) repeat-y;
+}
+
+INPUT, SELECT, TH, TD,p {font-size:1em}
+
+h1 {
+	font: 2em Arial, Helvetica, sans-serif;
+	color: #75548d;
+	margin-bottom: 3px;
+}
+
+h2 {
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+	color: #75548d;
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+
+h3 {
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px 0px 0px 0px;
+}
+
+h4 {
+	font: 1em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #3463a3;
+	margin: 1.2em 0 0 0;
+	padding: 0 0 0 0;
+	BACKGROUND: url(/error_files/rule-h-blue-dots.gif) repeat-x left bottom;
+}
+
+.h4 {
+	margin-top:.2em;
+	margin-bottom: 2em;
+}
+
+h5 {
+	font: 1.0em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px 0px 3px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #3463a3;
+}
+td {
+	color: #000000
+}
+
+a {
+	color: #3464a2;
+}
+
+a.visited {
+	color: #6cce98;
+}
+
+a:hover {
+	color: #6cce98;
+}
+
+ol li {
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	margin-left: 0px;
+	padding-left: 0px;
+	line-height: 18px;
+	list-style-type: disc;
+}
+
+div.greyborder{                                
+	width: 99%;                                
+	border: 1px solid black;                   
+	background-color: #dddddd;                    
+	margin-bottom: 1em;
+	padding: 5px;
+}
+
+.boldbluetext{                                
+	color: blue;
+	font-weight: bold;
+} 
+/* End basic HTML Element Styles */
+
+
+
+/***** Table Styles *****/
+
+.tableBorderGrey {
+	border: #cdcdcd 1pt solid;
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+.doubleindent {
+	padding-left: 40px;
+}
+
+.hilite {
+	background: white;
+	color: #3464a2;
+	margin: 2px 0px 0px 0px;
+	padding: 2px 2px 2px 4px;
+	font-weight: bold;
+	font-size: 11px;
+	list-style-type: none;
+}
+
+.tablehead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #555555;
+}
+
+.tabletitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #555555;
+}
+
+/***** End Table Styles *****/
+/**** Navigation related Styles ****/
+div.nav {
+	width: 151px;
+	font-size: 8pt;
+	clear: both;
+}
+
+span.nnavl {
+	text-align: right;
+	width: 92%;
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-right: 2px;
+	color: #ddd;
+	/*display: marker;*/
+}
+
+span.nnavr {
+	color: #ddd;
+	width: 6%;
+	padding-top: 1px;
+	float: right;
+}
+
+div.nav span.nnavl a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+div.nav span.nnavl a:hover {
+	color: #6cce98;
+	text-decoration: underline;
+}
+
+li.spacer {
+	clear: both;
+	list-style-type: none;
+}
+
+a.nav:hover {
+	text-decoration: underline;
+}
+
+/**** End Navigation related Styles ****/
+
+/**** Stat misc classes *****/
+.red {
+	color: red;
+}
+
+.backwarning {
+	color: red;
+}
+
+.bgGrey {
+	background-color: #eee;
+}
+
+.subh1 {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #6bce98;
+	margin-bottom: 10px;
+}
+
+.bgWhite {
+	background-color: #fff;
+}
+
+.bgBlue {
+	background-color: #3464a2;
+	color: #fff;
+}
+
+.terms {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.bgGreybold {
+	background-color: #eee;
+	font-weight: bold;
+}
+
+.confPrint {
+	padding: 5px;
+}
+
+/**** End misc classes *****/
+
+
+/**** INFORMATIONAL BOXES *****/
+
+.infobox {
+	padding: 0px;
+	width: 99%;
+	background: #fff;
+	border: 1px solid black;
+}
+
+.infobox h1{
+	font: 1em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: black;
+	background: #ddd;
+	padding: 3px;
+}
+
+.infobox p {
+	padding: 0px 5px 5px 5px;
+}
+
+.infobox2 {
+	width: 92%;
+	background: #fff;
+	border: 1px solid black;;
+	padding: 5px;
+	margin-left: 3%;
+	margin-top: 10px
+}
+
+/**** END INFORMATIONAL BOXES *****/
+
+
+
+
+
+/************ Error Message Styles *************/
+div.message{                                
+	width: 99%;                                
+	border: 1px solid black;                   
+	background-color: #fff;                    
+	color: blue;                               
+	font-weight: bold;                         
+	margin-bottom: 1em;
+	padding; 5px;
+}                                           
+div.message span.hdr {                      
+	width: 100%;
+	border-bottom: 1px solid black;            
+	background-color: #efefef;                 
+	padding: 3px;                              
+}
+div.message div.hdr {                      
+	width: 99%;
+	border-bottom: 1px solid black;            
+	background-color: #efefef;                 
+	padding: 3px;                              
+}  
+                                        
+div.message ol {                            
+	margin-top: 0px;                           
+	margin-bottom: 0px;                        
+	padding-right: 0px;                        
+	padding-top: 0px;                          
+	padding-bottom: 0px;                       
+}                                           
+div.message ol li {                         
+	margin-top: 0px;                           
+	margin-left: 0px;                          
+	padding-left: 0px;                         
+	padding-bottom: 0px;                       
+	padding-top: 2px;                          
+	list-style-type: decimal;                  
+}                                           
+input:focus, select:focus, textarea:focus { 
+	background: #3463a3;                          
+	color: #fff;                               
+}	                                   
+/************ End Error Message Styles *************/
+
+
+/******** CSS Layout containers for entire site ***********/
+#container{
+	background: #fff url(/error_files/horizbar_short_bl.gif) repeat-y;
+	min-height: 100%;
+}
+
+#navigation{
+	width: 152px;
+	float: left;
+	margin-left: -1px;
+}
+	
+#content {
+	padding-left: 10px;
+	margin-left: 171px;
+	width: 580px;
+	clear: right;
+	color: #000;
+}
+
+#header {
+	margin-bottom: 0px;
+	background-image: url(/error_files/UI_trans.gif);
+	height: 40px;
+	width: 760px;	
+}
+
+
+#headprint {
+	display: none;	
+}
+#subheader {
+	margin-bottom: 0px;
+	background-image: url(/error_files/subbanner_short_bl.gif);
+	height: 35px;
+	width: 760px;
+	clear: both;
+}	
+
+#subheadergr {
+	margin-bottom: 0px;
+	background-image: url(/error_files/subbanner_short_gr.gif);
+	height: 35px;
+	width: 760px;
+}
+
+a.sublink, a.sublink:link, a.sublink:visited {
+	float:right; 
+	display: block; 
+	width:92px; 
+	height:16px; 
+	background:#fff; 
+	/*padding-top:3px;*/
+	margin-top: 3px;
+	margin-left: 6px;
+	text-align:center; 
+	text-decoration:none; 
+	font-size: 8pt; 
+	color: ##069;
+	border: 1px solid #000;
+	overflow:hidden;
+}
+
+a.sublink:hover {
+	background:#069;
+}
+
+a.sublink:active {
+	color:#fff; 
+	background:#659865;
+}
+
+#footer {
+	background-color: #069;
+	width: 151px;
+	clear:both;
+}
+/* external links  on index page */
+#externallinks {
+	width: 760px;
+	float: left;
+	margin: 0;
+	padding: 0;		
+	height: 27px;
+	background: #069;
+	clear: both;
+}
+
+a.extlink, a.extlink:link, a.extlink:visited,
+a.extlinkInternal, a.extlinkInternal:link, a.extlinkInternal:visited,
+a.extlinkLast, a.extlinkLast:link, a.extlinkLast:visited {
+	float:left; 
+	display: block; 
+	width:92px; 
+	height:27px; 
+	background:#069; 
+	padding-top:0; 
+	padding-bottom: 2px;
+	text-align:center; 
+	text-decoration:none; 
+	font-size: 8pt; 
+	color: #fff;
+	overflow:hidden;
+}
+
+a.extlink, a.extlink:link, a.extlink:visited{
+	border-right:1px solid #004566;
+}
+
+a.extlinkInternal, a.extlinkInternal:link, a.extlinkInternal:visited{
+	border-left:1px solid #0084c4;
+	border-right:1px solid #004566;
+}
+
+a.extlinkLast, a.extlinkLast:link, a.extlinkLast:visited {
+	border-left:1px solid #0084c4;
+}
+
+a.extlink:hover,a.extlinkInternal:hover,a.extlinkLast:hover {
+	color:#069; 
+	background:#fff;
+} 
+
+a.extlink:active,a.extlinkInternal:active, a.extlinkLast:active {
+	color:#fff; 
+	background:#659865;
+}
+
+/************ end layout styles ****************/
+
+
+/***********  ROUNDED BOXES ****************/
+/* Show only to IE PC \*/
+* html .boxhead h2 {height: 1%;} /* For IE 5 PC */
+
+.sidebox {
+	width: 100%; 
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	background: url(/error_files/round_rb_gray.gif) no-repeat bottom right; /** right bottom  */
+	font-size: 100%;
+}
+.boxhead {
+	background: url(/error_files/round_rt_gray.gif) no-repeat top right; /* right top */
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.boxhead h2 {
+	background: url(/error_files/round_lt_gray.gif) no-repeat top left; /* left top */
+	margin: 0;
+	padding: 14px 25px 5px;
+	color: white; 
+	font-weight: bold; 
+	font-size: 1.2em; 
+	line-height: 1em;
+	text-shadow: rgba(0,0,0,.4) 0px 2px 5px; /* Safari-only, but cool */
+}
+.boxbody {
+	background: url(/error_files/round_lb_gray.gif) no-repeat bottom left; /*  left bottom */
+	margin: 0;
+	padding: 5px 30px 37px;
+}
+
+.boxbody p{
+	padding: 2px;
+	
+	}
+
+/*********** end  ROUNDED BOXES ****************/
+
+
+/************ Sign in section **/
+                                                                                      
+.sign-in-table {                                                                       
+	/*background: #eac; */                                                         
+	MARGIN: 0px 0px 0px 3px;                                                       
+	WIDTH: 90%;
+	align: center;                                                                
+}                                                                                      
+
+.sign-in-table TD.hrule {                                                              
+	padding: 6px 2px 2px 2px;                                                                  
+	BACKGROUND: url(/error_files/rule-h-blue-dots.gif) repeat-x left bottom;          
+}
+
+.sign-in-table TD.hruletop {                                                              
+	padding: 6px 2px 2px 2px;                                                                  
+	BACKGROUND: url(/error_files/rule-h-blue-dots.gif) repeat-x left top;          
+}   
+
+
+.sign-in-table TD {
+	color: #000;
+ 	padding: 4px;
+ 	margin-left: 4px;
+}
+
+.sign-in-table TD LABEL {
+ 	padding: 3px 0px 0px 2px;
+ 	display: block;
+ 	margin: 0;
+}
+
+.sign-in-table TD P {
+	margin: 0.3em 0px 1em;
+ 	padding: 0;
+}
+
+.sign-in-text-field {
+	font: 9pt Arial, Helvetica, sans-serif; 
+	margin-top: 0;
+	padding-top: 0;
+}
+
+ #sign-in-submit {
+ 	padding-top: 5px;
+	TEXT-ALIGN: left;
+}
+/************* end sign in styles ************/
+
+
+a.language {
+	
+	background: #fff;
+	float: right;
+	text-align: center;
+	clear: left;
+	margin-top: 16px;
+	margin-right: 15px;
+	padding: 1px;
+	width: 70px;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	border-right: 10px solid gray;
+	text-decoration: none;
+	font: 9pt Helvetica, verdana, Arial, sans-serif;
+}
+
+a.language:hover {
+	background-color: #dddddd;
+	color: #3463a3;
+}
+
+a.skiplink {left: -300em; width: 5em; height: 1px;position: absolute;}
+
+label.quiet {
+	display: none;
+	/* just in case the display property is not supported */
+	visibility: hidden;
+}
+
+.access {
+	display: none;
+}

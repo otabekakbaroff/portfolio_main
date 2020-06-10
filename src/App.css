@@ -22,7 +22,7 @@
     position: absolute;
     z-index: 1;
     color:rgba(255, 255, 255, 0.239);
-    font-size: 5em;
+    font-size: 4.5em;
   }
   .main{
     font-family: Georgia, serif;
@@ -51,9 +51,8 @@
     transition-timing-function:ease-out;
     color:white;
     text-decoration:none;
-    padding:10% 0% 10% 0%;
     border-top: 0.1px rgb(255, 255, 255) solid;
-    padding:6.5% 45% 6.5% 45%;
+    padding:5.5% 45% 5.5% 45%;
   }
   .nav a:hover{
     color: rgb(127, 206, 251);
@@ -137,7 +136,7 @@
   }
   .CT_button{
     width:70%;
-    top:77%;
+    top:75%;
     right:15%;
     position: absolute;
     display:flex;
@@ -161,6 +160,7 @@
   }
   .contact{
     height: 100vh;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -178,6 +178,7 @@
   }
   .contact form p{
     font-size: 0.69em;
+    text-align: center;
     margin: 1%;
   }
   .contactInput{
@@ -223,6 +224,29 @@
     color:#08fdd8;
     text-align: center;
     border:solid #089b85 1px;
+  }
+  .about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .about p{
+    margin: 10%;
+    color: #b7b7b7;
+  }
+  .about .aboutLinks{
+    width: 100%;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+  }
+  .about .aboutLinks a{
+    text-decoration: none;
+    color:#08fdd8;
+    border: solid #089b85 1px;
+    padding: 1.5% 3.5% 1.5% 3.5%;  
+    margin: 5% 5% 5% 5%;
   }
 }
 
