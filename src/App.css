@@ -257,7 +257,7 @@
 
 
 
-@media only screen and (min-width: 400px) {
+@media only scre`en and (min-width: 400px) {
   .about h1{
     font-size:2.750em;
   }
@@ -281,7 +281,7 @@
     font-size:2.850em;
   }
   .about .p{
-    margin:5% 5% 15% 17%;
+    margin:5% 5% 15% 15%;
     font-size:1.15em;
   }
 }
