@@ -5,7 +5,7 @@ import Navbar from "./components/navbar"
 import About from './components/about'
 import Projects from './components/skillz'
 import Home from './components/home'
-import Social_link from './components/social-link'
+import SocialLink from './components/social-link'
 import Contact from './components/contact'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route  path="/projects" component={Projects}/>
         </Switch>
       </Router>
-      <Social_link/>
+      <SocialLink/>
     </div>
   );
 }
