@@ -38,8 +38,8 @@ function Navbar(){
         <div>
             <div className="nav">
                     <Link to="/" onClick={sayHello}>Home</Link>
-                    <Link to="/projects" onClick={sayHello}>MyWork</Link>
-                    <Link to="/about" onClick={sayHello}>AboutMe</Link>
+                    <Link to="/projects" onClick={sayHello}>Projects</Link>
+                    <Link to="/about" onClick={sayHello}>About</Link>
                     <Link to="/contact" onClick={sayHello}>Contact</Link>
             </div>
             <div id="sandwich" onClick={sayHello}>
