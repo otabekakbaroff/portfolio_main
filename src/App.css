@@ -163,68 +163,9 @@
   .contact{
     height: 100vh;
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .contact form{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width:65%;
-  }
-  .contact form h1{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 1%;
-  }
-  .contact form p{
-    font-size: 0.69em;
-    text-align: center;
-    margin: 1%;
-  }
-  .contactInput{
-    outline: none;
-    border-bottom: 2px white solid;
-    border-radius: 10px;
-    background-color:rgb(0, 0, 0);
-    padding:5% 5% 5% 5%;
-    margin:2%;
-  }
-  .contact textarea{
-    background-color:rgb(0, 0, 0);
-    border-bottom: 2px white solid;
-    border-radius: 10px;
-    padding:5% 5% 5% 5%;
-    margin:2%;
-    outline: none;
-    resize: none;
-  } 
-  
-  .contact input::placeholder{
-    color:rgba(248, 248, 248, 0.712);
-  }
-  .contact textarea::placeholder{
-    color:rgba(248, 248, 248, 0.712);
-  }
-  .contact input:focus{
-    border-bottom: 2px solid #00afdb;
-  }
-  .contact textarea:focus{
-    border-bottom: 2px solid #00afdb;
-  }
-  .contactSend{
-    width:50%;
-    margin: 5%;
-  }
-  .contactSend button{
-    padding:5% 5% 5% 5%;
-    width:100%;
-    border-radius: 3px;
-    background-color:black;
-    color:#08fdd8;
-    text-align: center;
-    border:solid #089b85 1px;
   }
   .about{
     display:flex;
@@ -237,9 +178,10 @@
     font-size: 2.7em;
   }
   .about .p{
+    text-align: center;
     margin:5% 5% 10% 10%;
     color: #b7b7b7;
-    font-size: 1em;
+    font-size: 1.025em;
   }
   .about .aboutLinks{
     width: 100%;
@@ -262,8 +204,8 @@
     font-size:2.750em;
   }
   .about .p{
-    margin:5% 5% 15% 15%;
-    font-size:1.050em;
+    margin:15% 5% 15% 5%;
+    font-size:1.150em;
   }
 }
 
@@ -281,8 +223,8 @@
     font-size:2.850em;
   }
   .about .p{
-    margin:5% 5% 15% 15%;
-    font-size:1.15em;
+    margin:15% 5% 15% 5%;
+    font-size:1.250em;
   }
 }
 
@@ -291,7 +233,7 @@
     font-size:2.9em;
   }
   .about .p{
-    font-size:1.2em;
+    font-size:1.3em;
   }
 }
 
@@ -308,6 +250,9 @@
   }
   .CT_button button{
     width:35%;
+  }
+  .about .p{
+    font-size:1.4em;
   }
 }
 
@@ -327,8 +272,18 @@
   .CT_button button{
     width:30%;
   }
+  .about .p{
+    font-size:1.450em;
+  }
 }
 
+
+@media only screen and (min-width: 700px) {
+  .about .p{
+    margin: 10% 5% 7% 5%;
+    font-size:1.5em;
+  }
+}
 
 
 
@@ -346,10 +301,19 @@
   .CT_button button{
     width:28%;
   }
+  .about .p{
+    margin: 10% 5% 7% 5%;
+    font-size:1.550em;
+  }
 }
 
 
-
+@media only screen and (min-width: 800px) {
+  .about .p{
+    margin: 9% 5% 8% 5%;
+    font-size:1.6em;
+  }
+}
 
 
 @media only screen and (min-width: 850px) {
@@ -366,7 +330,7 @@
     display: block;
     padding:5% 20% 5% 20%;
     transform: scale(1);
-    transition-duration:1s;
+    transition-duration:0.5s;
     transition-timing-function:ease-out;
     color:white;
     text-decoration:none;
@@ -376,15 +340,15 @@
     color: rgb(127, 206, 251);
     padding:5% 19.5% 5% 19.5%;
     transform: scale(1.2);
-    transition-duration:0.3s;
+    transition-duration:0.2s;
     transition-timing-function:ease-in;
   }
   .nav a:active{
     padding:5% 20% 5% 20%;
-    color:rgb(250, 129, 129);
-    transform: scale(1.1);
+    color:#fad1d1;
+    transform: scale(1.180);
     transition-duration:0.1s;
-    transition-timing-function:ease-out;
+    transition-timing-function:ease-in;
   }
   #sandwich{
     display:none;
@@ -405,9 +369,17 @@
   #share a:hover{
     width:100%;
   }
+  .about .p{
+    margin: 5% 18% 5% 18%;
+  }
 }
 
-
+@media only screen and (min-width: 900px) {
+  .about .p{
+    margin: 5% 18% 5% 18%;
+    font-size:1.725em;
+  }
+}
 
 
 
@@ -421,8 +393,19 @@
   .CT_button button{
     padding:1.8%;
   }
+  .about .p{
+    margin: 5% 18% 5% 18%;
+    font-size:1.775em;
+  }
 }
 
+
+@media only screen and (min-width: 1000px) {
+  .about .p{
+    margin: 4% 15% 4% 15%;
+    font-size:1.9em;
+  }
+}
 
 
 
@@ -467,6 +450,10 @@
     padding:1.5%;
     width:19%;
   }
+  .about .p{
+    margin: 4% 20% 4% 20%;
+    font-size:1.9em;
+  }
 }
 
 
@@ -479,6 +466,10 @@
   }
   .nav{
     width:9%;
+  }
+  .about .p{
+    margin: 4% 22% 4% 22%;
+    font-size:2em;
   }
 }
 
@@ -518,7 +509,12 @@
 }
 
 
-
+@media only screen and (min-width: 1600px) {
+  .about .p{
+    margin: 2.5% 25% 2.5% 25%;
+    font-size:2.5em;
+  }
+}
 
 
 
