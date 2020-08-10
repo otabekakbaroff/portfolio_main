@@ -676,6 +676,13 @@
     padding:2%;
     width:30%;
   }
+  .about h1{
+    font-size: 1.8em;
+  }
+  .about .p{
+    font-size: 1em;
+    margin: 2% 15% 2% 15%;
+  }
 }
 
 
@@ -706,6 +713,12 @@
   .nav a{
     font-size: 1.025em;
   }
+  .about h1{
+    font-size: 1.9em;
+  }
+  .about .p{
+    font-size: 1.050em;
+  }
 }
 
 
@@ -720,6 +733,12 @@
   }
   .nav a{
     font-size: 1.050em;
+  }
+  .about h1{
+    font-size: 2em;
+  }
+  .about .p{
+    font-size: 1.1em;
   }
 }
 
@@ -749,6 +768,12 @@
   }
   .nav a{
     font-size: 1.1em;
+  }
+  .about h1{
+    font-size: 2.1em;
+  }
+  .about .p{
+    font-size: 1.2em;
   }
 }
 
@@ -780,6 +805,12 @@
   .nav a{
     font-size: 1.150em;
   }
+  .about h1{
+    font-size: 2.2em;
+  }
+  .about .p{
+    font-size: 1.350em;
+  }
 }
 
 
@@ -794,6 +825,12 @@
   }
   .nav a{
     font-size: 1.175em;
+  }
+  .about h1{
+    font-size: 2.8em;
+  }
+  .about .p{
+    font-size: 1.6em;
   }
 }
 
