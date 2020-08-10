@@ -160,13 +160,6 @@
     background-color:#089b85;
     color:white;
   }
-  .contact{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .about{
     display:flex;
     justify-content: center;
@@ -188,40 +181,57 @@
     text-decoration: none;
     font-weight: bolder;
   }
-  .contact form{
-    display: flex;
+  .contact{
+    margin-top:20%;
+    max-width: 500px;
+    height: 75vh;
+    display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
-  .contact form p{
     text-align: center;
   }
+  .contactText{
+    margin: 0 20px;
+    text-align: left;
+  }
+  .contact form{
+    display:flex;
+    margin: 20px;
+    flex-direction: column;
+  }
   .contact form input{
-    margin: 3%;
-    padding: 2.5%;
-    border-radius: 5px;
+    background-color:black;
+    color:white;
+    border-bottom: white solid 2px;
+    margin: 3.5% 2% 3.5% 0%;
+    outline: none;
+  }
+  .contact form input::placeholder{
+    color:white;
+    padding-left: 5px;
   }
   .contact form textarea{
-    margin: 3%;
-    padding: 2.5%;
-    border-radius: 5px;
+    background-color:black;
+    color:white;
+    border-bottom: white solid 2px;
+    margin: 2% 2% 2% 0%;
+    outline: none;
   }
-  .contact p{
-    margin: 2.5%;
+  .contact form textarea::placeholder{
+    color:white;
+    padding-left: 5px;
   }
-  .contactSend button{
-    font-size:large;
+  .contact form button{
     background-color:black;
     color:#089b85;
-    padding: 5% 45% 5% 45%;
-    border: #089b85 1px solid;
-    border-radius: 3px;
-  }
-  .contactSend{
-    margin:2.5% 5% 5% 0%;
+    border: 1.3px solid #089b85;
+    padding:2% 10% 2% 10%;
+    margin: 5% 0%;
+    border-radius: 2px; 
   }
 }
+
+
 
 
 
@@ -232,6 +242,9 @@
   .about .p{
     margin:15% 5% 15% 5%;
     font-size:1.150em;
+  }
+  .contact{
+    height: 64vh;
   }
 }
 
@@ -251,6 +264,9 @@
   .about .p{
     margin:15% 5% 15% 5%;
     font-size:1.250em;
+  }
+  .contact{
+    height: 62vh;
   }
 }
 
@@ -280,6 +296,9 @@
   .about .p{
     font-size:1.4em;
   }
+  .contact{
+    max-width: 400px;
+  }
 }
 
 
@@ -300,6 +319,9 @@
   }
   .about .p{
     font-size:1.450em;
+  }
+  .contact{
+    max-width: 450px;
   }
 }
 
@@ -403,7 +425,10 @@
   .about .p{
     margin: 5% 18% 5% 18%;
   }
-
+  .contact{
+    margin-top: 15%;
+    max-width: 500px;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -437,6 +462,10 @@
     margin: 4% 15% 4% 15%;
     font-size:1.9em;
   }
+  .contact{
+    margin-top: 12%;
+    max-width: 550px;
+  }
 }
 
 
@@ -465,6 +494,10 @@
   }
   .nav{
     width:9.5%;
+  }
+  .contact{
+    margin-top: 10%;
+    max-width: 600px;
   }
 }
 
@@ -502,6 +535,10 @@
   .about .p{
     margin: 4% 22% 4% 22%;
     font-size:2em;
+  }
+  .contact{
+    margin-top: 8%;
+    max-width: 650px;
   }
 }
 

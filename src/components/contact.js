@@ -3,9 +3,11 @@ import React from 'react';
 function Contact(){
     return(
         <div className="contact">
+            <div className="contactText">
+                <h1>Get in touch</h1>
+                <p>Feel free to leave a feedback/questions or Email me at Otabek.Akbaroff@gmail.com</p>
+            </div>
             <form>
-            <h1>Get in touch</h1>
-            <p>Feel free to leave a feedback/questions or Email me at Otabek.Akbaroff@gmail.com</p>
                 <input className="contactInput" placeholder="Name"/>
                 <input className="contactInput" placeholder="Email"/>
                 <input className="contactInput" placeholder="Subject"/>
