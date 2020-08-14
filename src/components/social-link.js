@@ -13,7 +13,7 @@ function Social_link(){
           <a className="social-link" href="https://github.com/otabekakbaroff" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
           <a className="social-link" href="https://www.linkedin.com/in/otabek-akbarov-163a22198/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a className="social-link" href="mailto:otabek.akbaroff@gmail.com" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogle}/></a>
-          <a className="social-link" href="https://repl.it/@otabek99" target="_blank" rel="noopener noreferrer"><img src={replitLogo}/></a>
+          <a className="social-link" href="https://repl.it/@otabek99" target="_blank" rel="noopener noreferrer"><img alt="replit logo" src={replitLogo}/></a>
        </div> 
     )
 }

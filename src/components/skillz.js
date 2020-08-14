@@ -6,7 +6,7 @@ function skillz(){
         <div class="skillz">
             <h1>Projects</h1>
             <div className="cssless">
-                <img src={csslesspic}/>
+                <img alt= "css less project" src={csslesspic}/>
             </div>
         </div>
     )
