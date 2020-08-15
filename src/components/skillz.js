@@ -1,5 +1,5 @@
 import React from 'react';
-import csslesspic from '../cssless.PNG'
+// import csslesspic from '../cssless.PNG'
 
 
 function skillz(){
