@@ -160,21 +160,31 @@
     background-color:#089b85;
     color:white;
   }
+  .mainAbout{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 91vh;
+  }
+  .mainAbout h1{
+    text-align: center;
+  }
   .about{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
   }
   .about h1{
     font-size: 2.7em;
   }
   .about .p{
     text-align: center;
-    margin:5% 5% 10% 10%;
     color: #b7b7b7;
-    font-size: 1.025em;
+    font-size: 1.12em;
+    margin: 5%;
   }
   .p a{
     color: rgb(127, 206, 251);
@@ -189,7 +199,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: end;
-    background-color: #232323;
+    background-color: #000000;
   }
   .contactText{
     margin: 0 20px;
@@ -201,7 +211,7 @@
     flex-direction: column;
   }
   .contact form input{
-    background-color:#232323;
+    background-color:#000000;
     color:white;
     border-bottom: white solid 2px;
     margin: 3.5% 2% 3.5% 0%;
@@ -216,12 +226,12 @@
     padding-left: 5px;
   }
   .contact form textarea{
-    background-color:#232323;
+    background-color:#000000;
     color:white;
     border-bottom: white solid 2px;
     margin: 2% 2% 2% 0%;
     outline: none;
-    height: 70px;
+    height: 100px;
     resize: none;
     font-size: 1em;
   }
@@ -248,19 +258,21 @@
     max-width: 100%;
     height: auto;
   }
-  .skillz{
-    margin-top:2%;
-    /* max-width:300px; */
+  .aboutSkillzSection{
     display:flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    min-width:800px;
+    flex-wrap: wrap;
+    margin-top: 5%;
   }
-  .projects{
-    background-color:#1f1f1f;
-    width:800px;
-    height: 800px;
+  .aboutLogos svg{
+    color:white !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .aboutSkillzSection div{
+    margin:2.5%;
   }
 }
 
