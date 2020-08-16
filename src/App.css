@@ -322,6 +322,11 @@
   }
   .about .p{
     font-size:1.3em;
+    margin-top:10%;
+    margin-bottom: 10%;
+  }
+  .aboutSkillzSection{
+    margin:0%;
   }
 }
 
@@ -348,7 +353,12 @@
   }
 }
 
-
+@media only screen and (min-width: 600px){
+  .aboutLogos svg{
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
 
 
 @media only screen and (min-width: 650px) {
@@ -369,6 +379,9 @@
   }
   .contact{
     max-width: 450px;
+  }
+  .mainAbout h1{
+    font-size: 2.7em;
   }
 }
 
@@ -479,6 +492,13 @@
     margin-top: 15%;
     max-width: 500px;
   }
+  .mainAbout h1{
+    font-size: 3.2em;
+  }
+  .aboutLogos svg{
+    width: 70px !important;
+    height: 70px !important;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -551,6 +571,9 @@
   .contact{
     margin-top: 10%;
     max-width: 650px;
+  }
+  .mainAbout h1{
+    font-size: 3.5em;
   }
 }
 
@@ -768,10 +791,11 @@
 
 @media only screen and (max-height:650px) and (min-width:320px){
   .contact{
-    margin-top:17%;
+    margin-top:10%;
     width:300px;
-    height: 75vh;
+    height: 87vh;
   }
+
 }
 
 
@@ -835,9 +859,11 @@
     margin: 2% 15% 2% 15%;
   }
   .contactText{
-    background-color:#232323;
     width:100%;
-    margin:0;
+  }
+  .contact {
+    margin-top: 10%;
+    width: 350px;
   }
 }
 
@@ -931,6 +957,10 @@
   .about .p{
     font-size: 1.2em;
   }
+  .contact{
+    margin-top: 5%;
+    width: 400px;
+  }
 }
 
 
@@ -967,6 +997,9 @@
   .about .p{
     font-size: 1.350em;
   }
+  .contact{
+    width: 500px;
+  }
 }
 
 
@@ -987,6 +1020,9 @@
   }
   .about .p{
     font-size: 1.6em;
+  }
+  .contact{
+    width: 600px;
   }
 }
 
