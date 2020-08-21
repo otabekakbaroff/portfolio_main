@@ -288,16 +288,16 @@
     width:100%;
     max-width:90%;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
   }
   .css-less{
-    background-color:rgb(212 234 249);
+    background-color:rgb(225 243 255);
     color:black;
     border:solid rgba(223, 223, 255, 0.719) 5px;
     border-radius: 15px;
-    width:24em;
-    margin:1% 0.5% 1% 0.5%;
+    width:20em;
+    margin:2.5% 0.5% 2.5% 0.5%;
     height: 500px;
     display:flex;
     flex-direction: column;
@@ -319,9 +319,15 @@
   .visit_buttons{
     text-align: center;
   }
+  .visit_buttons a{
+    text-decoration:none;
+    color:#08fdd8;
+  }
+  .visit_buttons a:hover{
+    color:white;
+  }
   .visit_buttons button{
     background-color:rgba(0, 0, 0, 0.801);
-    color:#08fdd8;
     border:1px solid #08fdd8;
     padding:2% 5%;
     border-radius: 5px;
@@ -329,13 +335,21 @@
   }
   .visit_buttons button:hover{
     background-color: #31b39f;
-    color:white;
   }
   #tables-thursday{
     background-image: url("./resources/tabless-thursday-tablet.PNG");
     background-size: contain;
     background-position: center;
-    background-size: 25em;
+    background-size: 20em;
+  }
+  #css-less{
+    background-image: url("./resources/css-less.PNG");
+    background-position: -6em 0em;
+    background-size: 30em;
+  }
+  .highlight{
+    font-weight: 900;
+    color:rgb(248, 38, 38);
   }
 }
 
@@ -377,6 +391,7 @@
     margin-top: 25%;
     height: 65vh;
   }
+  
 }
 
 @media only screen and (min-width: 500px) {
@@ -390,6 +405,9 @@
   }
   .aboutSkillzSection{
     margin:0%;
+  }
+  .skillz .projects{
+    max-width: 100%;
   }
 }
 
@@ -479,6 +497,10 @@
     margin: 10% 5% 7% 5%;
     font-size:1.550em;
   }
+  .css-less{
+    margin: 2.5% 2% 2.5% 2%;
+    width:19em;
+  }
 }
 
 
@@ -561,6 +583,14 @@
   .aboutLogos svg{
     width: 70px !important;
     height: 70px !important;
+  }
+  .skillz .projects{
+    margin-left: 4%;
+    max-width: 75%;
+  }
+  .css-less{
+    width:18em;
+    margin-left: 0;
   }
 }
 
@@ -858,7 +888,9 @@
     width:300px;
     height: 87vh;
   }
-
+  .skillz .projects{
+    max-width: 80%;
+  }
 }
 
 
@@ -1038,6 +1070,9 @@
   }
   .nav a{
     font-size: 1.125em;
+  }
+  .skillz .projects{
+    max-width: 75%;
   }
 }
 

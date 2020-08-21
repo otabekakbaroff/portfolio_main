@@ -10,21 +10,21 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="tables-thursday"></div>
                     <p>
-                        This project is about something that has to do with something,  might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
+                    <span className="highlight">Tables Thursday</span> project purpose to help people organize, and manage their tasks in a easier way. Project was built in a <span className="highlight">team of 7</span>. I was responsible to <span className="highlight">build Home page using HTML CSS-Less and Javascript</span>. 
                     </p>
                     <div className="visit_buttons">
-                        <button>Source Code</button>
-                        <button>Live Site</button>
+                        <button><a href="https://github.com/Build-Week-TablessThursday/UI" target="_blank">Source Code</a></button>
+                        <button><a href="https://tables-thursday.netlify.app/" target="_blank">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
-                    <div className="css-less-img"></div>
+                    <div className="css-less-img" id="css-less"></div>
                     <p>
-                        This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up 
+                        <span className="highlight">SpaceWalkers</span> was Lambda School Challenge Project practicing <span className="highlight">css-less</span>
                     </p>
                     <div className="visit_buttons">
-                        <button>Source Code</button>
-                        <button>Live Site</button>
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -33,8 +33,8 @@ function skillz(){
                         This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button>Source Code</button>
-                        <button>Live Site</button>
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -43,8 +43,38 @@ function skillz(){
                     This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button>Source Code</button>
-                        <button>Live Site</button>
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
+                    </div>
+                </div>
+                <div className="css-less">
+                    <div className="css-less-img"></div>
+                    <p>
+                    This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
+                    </p>
+                    <div className="visit_buttons">
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
+                    </div>
+                </div>
+                <div className="css-less">
+                    <div className="css-less-img"></div>
+                    <p>
+                    This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
+                    </p>
+                    <div className="visit_buttons">
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
+                    </div>
+                </div>
+                <div className="css-less">
+                    <div className="css-less-img"></div>
+                    <p>
+                    This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
+                    </p>
+                    <div className="visit_buttons">
+                        <button><a href="">Source Code</a></button>
+                        <button><a href="">Live Site</a></button>
                     </div>
                 </div>
             </div>
