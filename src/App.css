@@ -292,7 +292,7 @@
     flex-wrap: wrap;
   }
   .css-less{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(212 234 249);
     color:black;
     border:solid rgba(223, 223, 255, 0.719) 5px;
     border-radius: 15px;
@@ -332,10 +332,10 @@
     color:white;
   }
   #tables-thursday{
-    background-image: url("https://d33wubrfki0l68.cloudfront.net/5f3eaf67b88b52613d4618b3/screenshot.png");
+    background-image: url("./resources/tabless-thursday-tablet.PNG");
     background-size: contain;
     background-position: center;
-    background-size: 26em;
+    background-size: 25em;
   }
 }
 
