@@ -8,7 +8,7 @@ function skillz(){
             <h1>Projects</h1>
             <div className="projects">
                 <div className="css-less">
-                    <div className="css-less-img"></div>
+                    <div className="css-less-img" id="tables-thursday"></div>
                     <p>
                         This project is about something that has to do with something, <span className="skill-stack">python</span> might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
