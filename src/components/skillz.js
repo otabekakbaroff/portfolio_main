@@ -13,8 +13,8 @@ function skillz(){
                     <span className="highlight">Tables Thursday</span> project purpose to help people organize, and manage their tasks in a easier way. Project was built in a <span className="highlight">team of 7</span>. I was responsible to <span className="highlight">build Home page using HTML CSS-Less and Javascript</span>. 
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="https://github.com/Build-Week-TablessThursday/UI" target="_blank">Source Code</a></button>
-                        <button><a href="https://tables-thursday.netlify.app/" target="_blank">Live Site</a></button>
+                        <button><a href="https://github.com/Build-Week-TablessThursday/UI" target="_blank" rel="noopener noreferrer">Source Code</a></button>
+                        <button><a href="https://tables-thursday.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
