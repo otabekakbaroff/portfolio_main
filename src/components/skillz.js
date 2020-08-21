@@ -25,8 +25,8 @@ function skillz(){
                     </p>
                     <br></br>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
 
                 </div>
@@ -36,8 +36,8 @@ function skillz(){
                         This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -46,8 +46,8 @@ function skillz(){
                     This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -56,8 +56,8 @@ function skillz(){
                     This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -66,8 +66,8 @@ function skillz(){
                     This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
                 </div>
                 <div className="css-less">
@@ -76,8 +76,8 @@ function skillz(){
                     This project is about something that has to do with something, might be fitness app, might be  finance app or even traveling app etc big sentences and etc more just typing to fill this place up
                     </p>
                     <div className="visit_buttons">
-                        <button><a href="">Source Code</a></button>
-                        <button><a href="">Live Site</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Source Code</a></button>
+                        <button><a href="https://otabekakbaroff.com/projects">Live Site</a></button>
                     </div>
                 </div>
             </div>
