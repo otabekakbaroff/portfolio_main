@@ -279,13 +279,14 @@
     flex-direction: column;
     align-items: center;
     width:100%;
+    margin-bottom:8em;
   }
   .skillz h1{
     margin:1%;
   }
   .skillz .projects{
     width:100%;
-    max-width:75%;
+    max-width:90%;
     display:flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -306,7 +307,6 @@
     padding:2.5%;
   }
   .css-less-img{
-    background-color:red;
     width:100%;
     height: 100vh;
     border-top-right-radius: 10px;
@@ -315,11 +315,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 20em;
-  }
-  .skill-stack{
-    font-weight: 900;
-    font-size: larger;
-    color:rgb(80, 170, 255);
   }
   .visit_buttons{
     text-align: center;
@@ -338,7 +333,9 @@
   }
   #tables-thursday{
     background-image: url("https://d33wubrfki0l68.cloudfront.net/5f3eaf67b88b52613d4618b3/screenshot.png");
+    background-size: contain;
     background-position: center;
+    background-size: 26em;
   }
 }
 
