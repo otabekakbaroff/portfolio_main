@@ -281,14 +281,13 @@
     width:100%;
   }
   .skillz h1{
-    margin:2.5%;
+    margin:1%;
   }
   .skillz .projects{
     width:100%;
     max-width:75%;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
   .css-less{
@@ -297,7 +296,7 @@
     border:solid rgba(223, 223, 255, 0.719) 5px;
     border-radius: 15px;
     width:24em;
-    margin:0.5%;
+    margin:1% 0.5% 1% 0.5%;
     height: 500px;
     display:flex;
     flex-direction: column;
