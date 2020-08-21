@@ -19,13 +19,16 @@ function skillz(){
                 </div>
                 <div className="css-less">
                     <div className="css-less-img" id="css-less"></div>
+                    <br></br>
                     <p>
                         <span className="highlight">SpaceWalkers</span> was Lambda School Challenge Project practicing <span className="highlight">css-less</span>
                     </p>
+                    <br></br>
                     <div className="visit_buttons">
                         <button><a href="">Source Code</a></button>
                         <button><a href="">Live Site</a></button>
                     </div>
+
                 </div>
                 <div className="css-less">
                     <div className="css-less-img"></div>

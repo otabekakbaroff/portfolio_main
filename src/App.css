@@ -632,6 +632,9 @@
     height: 70vh;
     max-width: 600px;
   }
+  .css-less{
+    width:22em;
+  }
 }
 
 
@@ -751,6 +754,9 @@
   }
   .CT_button button{
     width:18%;
+  }
+  .css-less{
+    width:25em;
   }
 }
 
