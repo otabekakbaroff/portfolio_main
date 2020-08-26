@@ -5,7 +5,7 @@ function Contact(){
         <div className="contact">
             <div className="contactText">
                 <h1>Get in touch</h1>
-                <p>Feel free to leave a feedback/questions or Email me at Otabek.Akbaroff@gmail.com</p>
+                <p>Feel free to leave a feedback/questions or email me at Otabek.Akbaroff@gmail.com</p>
             </div>
             <form>
                 <input className="contactInput" placeholder="Name"/>
