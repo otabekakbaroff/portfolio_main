@@ -1,5 +1,5 @@
 [build]
-base = "business-card/"
+base = "src/"
 publish = "/build/"
 command = "yarn build"
 [[redirects]] 
