@@ -304,6 +304,7 @@
     flex-wrap: nowrap;
   }
   .css-less p{
+    height: 20%;
     padding:2.5%;
   }
   .css-less-img{
