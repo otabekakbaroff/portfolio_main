@@ -298,7 +298,7 @@
     border-radius: 15px;
     width:20em;
     margin:2.5% 0.5% 2.5% 0.5%;
-    height: 500px;
+    height: 600px;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -317,6 +317,7 @@
     height: 20em;
   }
   .visit_buttons{
+    position: relative;
     text-align: center;
   }
   .visit_buttons a{
@@ -324,9 +325,8 @@
     color:#08fdd8;
     background-color:rgba(0, 0, 0, 0.801);
     border:1px solid #08fdd8;
-    padding:2% 5%;
+    padding:10px 20px;
     border-radius: 5px;
-    margin: 5%;
   }
   .visit_buttons a:hover{
     background-color: #31b39f;
