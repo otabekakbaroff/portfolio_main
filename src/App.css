@@ -298,7 +298,7 @@
     border-radius: 15px;
     width:20em;
     margin:2.5% 0.5% 2.5% 0.5%;
-    height: 600px;
+    height: 525px;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -318,7 +318,8 @@
   }
   .visit_buttons{
     position: relative;
-    text-align: center;
+    display:flex;
+    justify-content: space-around;
   }
   .visit_buttons a{
     text-decoration:none;
