@@ -1,4 +1,8 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[build]
+base = "business-card/"
+publish = "/build/"
+command = "yarn build"
+[[redirects]] 
+from = "/*"
+to = "/index.html"
+status = 200
