@@ -322,19 +322,15 @@
   .visit_buttons a{
     text-decoration:none;
     color:#08fdd8;
-  }
-  .visit_buttons a:hover{
-    color:white;
-  }
-  .visit_buttons button{
     background-color:rgba(0, 0, 0, 0.801);
     border:1px solid #08fdd8;
     padding:2% 5%;
     border-radius: 5px;
     margin: 5%;
   }
-  .visit_buttons button:hover{
+  .visit_buttons a:hover{
     background-color: #31b39f;
+    color:white;
   }
   #tables-thursday{
     background-image: url("./resources/tabless-thursday-tablet.PNG");
