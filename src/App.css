@@ -298,18 +298,17 @@
     border-radius: 15px;
     width:20em;
     margin:2.5% 0.5% 2.5% 0.5%;
-    height: 525px;
+    height: 600px;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
   .css-less p{
-    height: 20%;
+    height: 27%;
     padding:2.5%;
   }
   .css-less-img{
     width:100%;
-    height: 100vh;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-image: url("https://css-less.netlify.app/img/sky.png");
@@ -339,11 +338,25 @@
     background-size: contain;
     background-position: center;
     background-size: 20em;
+    image-rendering: optimizeQuality;
   }
   #css-less{
     background-image: url("./resources/css-less.PNG");
-    background-position: -6em 0em;
+    background-position: -4.5em 0em;
     background-size: 30em;
+    image-rendering: optimizeQuality;
+  }
+  #business-card{
+    background-image: url("./resources/business-card5.PNG");
+    background-position: -3em 0em;
+    background-size: 40em;
+    image-rendering: optimizeQuality;
+  }
+  #anywhere-fitness{
+    background-image: url("./resources/anywhere-fitness.PNG");
+    background-position: -4em 0em;
+    background-size: 40em;
+    image-rendering: optimizeQuality;
   }
   .highlight{
     font-weight: 900;
@@ -632,6 +645,9 @@
   }
   .css-less{
     width:22em;
+  }
+  #css-less{
+    background-position: -3em 0em;
   }
 }
 
@@ -1036,7 +1052,6 @@
     font-size: 1.075em;
   }
 }
-
 
 
 
