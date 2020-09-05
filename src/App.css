@@ -298,13 +298,13 @@
     border-radius: 15px;
     width:20em;
     margin:2.5% 0.5% 2.5% 0.5%;
-    height: 600px;
+    height: 650px;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
   .css-less p{
-    height: 27%;
+    height: 35%;
     padding:2.5%;
   }
   .css-less-img{
@@ -340,21 +340,15 @@
     background-size: 20em;
     image-rendering: optimizeQuality;
   }
-  #css-less{
-    background-image: url("./resources/css-less.PNG");
-    background-position: -4.5em 0em;
-    background-size: 30em;
-    image-rendering: optimizeQuality;
-  }
   #business-card{
-    background-image: url("./resources/business-card5.PNG");
+    background-image: url("./resources/business-card.PNG");
     background-position: -3em 0em;
     background-size: 40em;
     image-rendering: optimizeQuality;
   }
   #anywhere-fitness{
     background-image: url("./resources/anywhere-fitness.PNG");
-    background-position: -4em 0em;
+    background-position: -8em 0em;
     background-size: 40em;
     image-rendering: optimizeQuality;
   }
