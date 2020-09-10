@@ -33,7 +33,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="anywhere-fitness"></div>
                     <p>
-                        <span className="highlight">Anywhere-fitness</span> initially was Lambda School team project, i was responsible to Build <span className="highlight">Back End</span> for my team using <span className="highlight">Node, Express, and SQLite</span>. I enjoyed the project so decided to build the Front End for it too. The project makes it easy for instructors to create classes, keep track of attandance and payments. Students can have flexability of chosing where, when, and who's their instructor.  
+                        <span className="highlight">Anywhere-fitness</span> initially was Lambda School team project, i was responsible to Build <span className="highlight">Back End</span> for my team using <span className="highlight">Node, Express, and SQLite</span>. I enjoyed the project so decided to build the Front End for it too. The project makes it easy for instructors to create classes, keep track of attandance and payments. Students can have flexability of choosing where, when, and who's their instructor.  
                     </p>
                     <br></br>
                     <div className="visit_buttons" id="backend">
