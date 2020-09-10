@@ -14,8 +14,8 @@ function skillz(){
                         </p>
                         <br></br>
                         <div className="visit_buttons">
-                            <a href="https://github.com/Build-Week-Business-Card-Organizer-2/Front-End/signUp" target="new" className="source">Source Code</a>
-                            <a href="https://businesscard-organizer.netlify.app/" target="new" className="live">Live Site</a>
+                            <a href="https://github.com/Build-Week-Business-Card-Organizer-2/Front-End/" target="new" className="source">Source Code</a>
+                            <a href="https://businesscard-organizer.netlify.app/signUp" target="new" className="live">Live Site</a>
                         </div>
                 </div>
                 <div className="css-less">
