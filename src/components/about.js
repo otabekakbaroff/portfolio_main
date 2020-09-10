@@ -11,7 +11,7 @@ function About(){
             <div className="p">
                 <p>Hello, my name is Otabek Akbarov,
                  I am Full Stack Web Developer from
-                New York with passion and curiosity towards technology and hunders of hours of coding experience.
+                New York, passionate and curious about technology, with hunders of hours of coding experience.
                 </p>
                 <br></br>
                 <p>
