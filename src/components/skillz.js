@@ -10,7 +10,7 @@ function skillz(){
                 <div className="css-less">
                         <div className="css-less-img" id="business-card"></div>
                         <p>
-                            <span className="highlight">Business-card-organizer</span> project purpose to make it easy for people to organize  and collect their business cards. Project was built in a <span className="highlight">team of 8 </span> with <span className="highlight">4 days deadline.</span> I was responsible to build <span className='highlight'>Front End</span> with two of my other teammates using <span>React</span>. My part was to make <span className="highlight">API calls</span> to backend, receive, manipulate, store and display the data.
+                            <span className="highlight">Business-card-organizer</span> the project's purpose is to make it easier for people to organize and collect their business cards. The project was built by a <span className="highlight">team of 8 </span>developers in <span className="highlight">4 days time frame.</span> I was responsible to build <span className='highlight'>Front End</span> with two of my other teammates using <span>React</span>. My part was to make <span className="highlight">API calls</span> to backend, receive, manipulate, store and display the data.
                         </p>
                         <br></br>
                         <div className="visit_buttons">
@@ -21,7 +21,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="chattychat"></div>
                     <p>
-                        <span className="highlight">Chattychat</span> is an app where you can join random chat rooms where you can chat with random people or create your own chat room and invite your friends.
+                        <span className="highlight">Chattychat</span> is a real time messaging app, where you can communicate with other users in the platform. 
                     </p>
                     <br></br>
                     <div className="visit_buttons" id="backend">
@@ -33,7 +33,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="anywhere-fitness"></div>
                     <p>
-                        <span className="highlight">Anywhere-fitness</span> initially was Lambda School team project, i was responsible to Build <span className="highlight">Back End</span> for my team using <span className="highlight">Node, Express, and SQLite</span>. I enjoyed the project so decided to build the Front End for it too. The project makes it easy for instructors to create classes, keep track of attandance and payments. Students can have flexability of choosing where, when, and who's their instructor.  
+                        <span className="highlight">Anywhere-fitness</span> initially was Lambda School team project, I was responsible to Build <span className="highlight">Back End</span> for my team using <span className="highlight">Node, Express, and SQLite</span>. I enjoyed the project so decided to build the Front End for it too. The project makes it easy for instructors to create classes, keep track of attandance and payments. Students can have flexability of choosing their instructors, time and a place.  
                     </p>
                     <br></br>
                     <div className="visit_buttons" id="backend">
@@ -45,7 +45,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="mealfresh"></div>
                     <p>
-                        <span className="highlight">Mealfresh</span> is a fresh and healthy food service for people who's trying to eat healthy. 
+                        <span className="highlight">Mealfresh</span> is a fresh and healthy food service for people who are trying to eat healthy. 
                     </p>
                     <br></br>
                     <div className="visit_buttons">
@@ -55,7 +55,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="tables-thursday"></div>
                     <p>
-                    <span className="highlight">Tables Thursday</span> Project purpose to help people organize, and manage their tasks in a easier way. Project was built in a <span className="highlight">team of 7</span> with <span className="highlight">4 days deadline</span>. I was responsible to <span className="highlight">build Home page using HTML CSS-Less and Javascript</span>. 
+                    <span className="highlight">Tables Thursday</span> The purpose of this project to help people organize and manage their tasks in a easier way. The project was built by a <span className="highlight">team of 7</span> developers in a <span className="highlight">4 day time frame</span>. I was responsible to <span className="highlight">build Home page using HTML CSS-Less and Javascript</span>. 
                     </p>
                     <br></br>
                     <div className="visit_buttons">
