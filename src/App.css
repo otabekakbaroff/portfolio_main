@@ -317,7 +317,6 @@
     height: 20em;
   }
   .visit_buttons{
-    position: relative;
     display:flex;
     justify-content: space-around;
   }
