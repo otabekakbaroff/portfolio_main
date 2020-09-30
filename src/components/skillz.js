@@ -21,7 +21,7 @@ function skillz(){
                 <div className="css-less">
                     <div className="css-less-img" id="chattychat"></div>
                     <p>
-                        <span className="highlight">Chattychat</span> is a real time messaging app, where you can communicate with other users in the platform. 
+                        <span className="highlight">ByteTalk</span> is a real time messaging app, where you can communicate with other users in the platform. 
                     </p>
                     <br></br>
                     <div className="visit_buttons" id="backend">
