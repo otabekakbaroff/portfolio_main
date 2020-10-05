@@ -1,0 +1,19 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "helmet": "^4.1.1",
+    "knex": "^0.21.6",
+    "pg": "^8.4.0",
+    "postgresql": "0.0.1",
+    "sqlite3": "^5.0.0"
+  }
+}
