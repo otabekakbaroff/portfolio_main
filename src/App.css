@@ -361,6 +361,28 @@
     text-align: center;
     font-size: 0.8em;
   }
+  .logger{
+    margin-bottom: 75px;
+    text-align: center;
+  }
+  .message-box{
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    margin:50px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .message-box p{
+    color:black;
+    margin: 15px;
+    font-size: 20px;
+  }
+  .message-box textarea{
+    height: 300px;
+    outline: none;
+  }
 }
 
 
