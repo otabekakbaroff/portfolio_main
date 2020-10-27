@@ -19,6 +19,6 @@ function AnywhereFitness(){
     )
 }
 
-// comment
+
 
 export default AnywhereFitness
