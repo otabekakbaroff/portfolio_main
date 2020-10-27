@@ -291,10 +291,6 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .skillz .projects a{
-    background-color:white;
-    margin:2.5%;
-  }
   .tt{
     background-image: url("./resources/tabless-thursday-tablet.PNG");
     background-position: center;
