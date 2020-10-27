@@ -291,6 +291,35 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+  .skillz .projects a{
+    background-color:white;
+    margin:2.5%;
+  }
+  .tt{
+    background-image: url("./resources/tabless-thursday-tablet.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .bc{
+    background-image: url("./resources/business-card.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .af{
+    background-image: url("./resources/anywhere-fitness.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+
   .css-less{
     background-color:rgb(225 243 255);
     color:black;
@@ -360,6 +389,30 @@
     padding: 14px 1px;
     text-align: center;
     font-size: 0.8em;
+  }
+  .logger{
+    margin-bottom: 75px;
+    text-align: center;
+  }
+  .message-box{
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    margin:50px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .message-box p{
+    color:black;
+    margin: 15px;
+    font-size: 24px;
+  }
+  .message-box textarea{
+    height: 300px;
+    outline: none;
+    font-size: 27px;
+    margin:15px;
   }
 }
 
