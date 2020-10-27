@@ -291,30 +291,6 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .tt{
-    background-image: url("./resources/tabless-thursday-tablet.PNG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-  }
-  .bc{
-    background-image: url("./resources/business-card.PNG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-  }
-  .af{
-    background-image: url("./resources/anywhere-fitness.PNG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-  }
 
   .css-less{
     background-color:rgb(225 243 255);
@@ -409,6 +385,12 @@
     outline: none;
     font-size: 27px;
     margin:15px;
+  }
+  #bytetalk{
+    display:none;
+  }
+  #mf{
+    display:none;
   }
 }
 
@@ -583,6 +565,7 @@
   }
   .nav a{
     display: block;
+    font-size: 24px;
     padding:5% 20% 5% 20%;
     transform: scale(1);
     transition-duration:0.5s;
