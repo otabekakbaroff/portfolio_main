@@ -291,6 +291,35 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+  .skillz .projects a{
+    background-color:white;
+    margin:2.5%;
+  }
+  .tt{
+    background-image: url("./resources/tabless-thursday-tablet.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .bc{
+    background-image: url("./resources/business-card.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  .af{
+    background-image: url("./resources/anywhere-fitness.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+
   .css-less{
     background-color:rgb(225 243 255);
     color:black;
