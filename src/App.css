@@ -386,8 +386,11 @@
     font-size: 27px;
     margin:15px;
   }
-  #bytetalk{
-    display:none;
+  #chattychat{
+    background-image: url("./resources/chatapp-02.PNG");
+    background-position: -100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #mf{
     display:none;
