@@ -6,7 +6,8 @@ function ByteTalk(){
         <div className="css-less" id="bytetalk">
             <div className="css-less-img" id="chattychat"></div>
             <p>
-                <span className="highlight">ByteTalk</span> is a real time messaging app, where you can communicate with other users in the platform. 
+                <span className="highlight">ByteTalk</span> is a real time messaging app, where you can communicate with other users in the platform.
+                The project is built using <span className="highlight">Socket.io</span> and <span className="highlight">Express</span>. 
             </p>
             <br></br>
             <div className="visit_buttons" id="backend">
