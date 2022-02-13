@@ -6,46 +6,27 @@ function Navbar(){
         if(window.matchMedia("(max-height:650px) and (min-width:550px)").matches || window.matchMedia("(min-width: 850px)")){
             document.querySelector(".nav").style.display="flex"
         }
-        sayHello();
+        // sayHello();
     }
     window.onresize=windowCheck;
-    function sayHello(){
-        if(!(window.matchMedia("(max-height:650px) and (min-width:550px)").matches)){
-            if(window.matchMedia("(max-width: 849px)").matches){
-                let navbar=document.querySelector(".nav");
-                let sandwichX=document.querySelector("#layerTwo")
-                let layerOne=document.querySelector("#layerOne")
-                let layerThree=document.querySelector("#layerThree")
-                if(navbar.style.display==="flex"){
-                    navbar.style.display="none";
-                    layerOne.style.transform="rotate(0deg)"
-                    layerThree.style.transform="rotate(0deg)"
-                    layerOne.style.position="relative";
-                    layerThree.style.position="relative";
-                    sandwichX.style.display="block"
-                }else{
-                    navbar.style.display="flex";
-                    sandwichX.style.display="none";
-                    layerOne.style.position="absolute";
-                    layerThree.style.position="absolute";
-                    layerOne.style.transform="rotate(50deg)";
-                    layerThree.style.transform="rotate(-50deg)";
-                }
-            }
-      }
+    const clickEvent = () =>{
+        let navbar=document.querySelector(".nav");
+        document.getElementById("sandwich").classList.toggle("change");
+        // navbar.style.display === 'flex' ? navbar.style.display = 'none': navbar.style.display = 'flex'
+        navbar.style.display === 'flex' ? navbar.style.display = 'none': navbar.style.display = 'flex'
     }
     return (
         <div>
             <div className="nav">
-                    <Link to="/" onClick={sayHello}>Home</Link>
-                    <Link to="/projects" onClick={sayHello}>Projects</Link>
-                    <Link to="/about" onClick={sayHello}>About</Link>
-                    <Link to="/contact" onClick={sayHello}>Contact</Link>
+                    <Link to="/" >Home</Link>
+                    <Link to="/projects" >Projects</Link>
+                    <Link to="/about" >About</Link>
+                    <Link to="/contact" >Contact</Link>
             </div>
-            <div id="sandwich" onClick={sayHello}>
-                <div id="layerOne"></div>
-                <div id="layerTwo"></div>
-                <div id="layerThree"></div>
+            <div id="sandwich" onClick={clickEvent}>
+                <div id="line-one" className='line'></div>
+                <div id="line-two" className='line'></div>
+                <div id="line-three" className='line'></div>
             </div>
         </div>
     )

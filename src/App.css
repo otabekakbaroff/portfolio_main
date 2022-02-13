@@ -114,7 +114,7 @@
     width: 25%;
     height: 100%;
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
     transition: 0.25s;
   }
@@ -586,8 +586,7 @@
   }
   .nav a:active{
     padding:5% 20% 5% 20%;
-    color:#fad1d1;
-    transform: scale(1.180);
+    transform: scale(1);
     transition-duration:0.1s;
     transition-timing-function:ease-in;
   }
@@ -927,6 +926,20 @@
   }
   .nav{
     display:none;
+  }
+  .line{
+    transition: 0.3s ease;
+  }
+  .change #line-one{
+    transform: translateY(10px) rotateZ(-45deg);
+  }
+  
+  .change #line-three{
+    transform: translateY(-15px) rotate(45deg);
+  }
+  
+  .change #line-two{
+    opacity: 0;
   }
 }
 
